@@ -1,0 +1,895 @@
+{
+  "schema": "openseed.v1",
+  "checked_at": "2026-11-25T13:09:49.739043Z",
+  "sources": [
+    {
+      "id": "arch",
+      "state": "ok",
+      "items": 1,
+      "checked_at": "2026-11-25T13:09:49.739043Z"
+    },
+    {
+      "id": "archive",
+      "state": "ok",
+      "items": 5,
+      "checked_at": "2026-11-25T13:09:49.739043Z"
+    },
+    {
+      "id": "debian-amd64",
+      "state": "ok",
+      "items": 3,
+      "checked_at": "2026-11-25T13:09:49.739043Z"
+    },
+    {
+      "id": "debian-arm64",
+      "state": "ok",
+      "items": 1,
+      "checked_at": "2026-11-25T13:09:49.739043Z"
+    },
+    {
+      "id": "ubuntu-lts",
+      "state": "ok",
+      "items": 4,
+      "checked_at": "2026-11-25T13:09:49.739043Z"
+    },
+    {
+      "id": "zenodo",
+      "state": "ok",
+      "items": 12,
+      "checked_at": "2026-11-25T13:09:49.739043Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "ia:BigBuckBunny_328",
+      "title": "Big Buck Bunny",
+      "kind": "Archive media",
+      "provider": "Internet Archive",
+      "source_id": "archive",
+      "source_url": "https://archive.org/details/BigBuckBunny_328",
+      "description": "Big Buck Bunny in DivX 720p.",
+      "download_url": "https://archive.org/download/BigBuckBunny_328/BigBuckBunny_328_archive.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 492762771,
+      "license_label": "licenses/by/3.0/us",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+      "checksums": [
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "BigBuckBunny.avi",
+          "value": "8f3d12e28ecb231852436d5c905d2a3e6ee8e119"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "BigBuckBunny_328_meta.xml",
+          "value": "e6c135f1a4371f520bbc8db7880d796f74a5da8b"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "__ia_thumb.jpg",
+          "value": "59db8bb3f403244ed52268b0f977f83ead7292ec"
+        }
+      ],
+      "checksum_url": "https://archive.org/metadata/BigBuckBunny_328",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "68ab7e0045144c33878900df2c5cac0a2ec2dc5b",
+      "file_count": 6,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "ia:Designfo1956",
+      "title": "Design for Dreaming",
+      "kind": "Archive media",
+      "provider": "Internet Archive",
+      "source_id": "archive",
+      "source_url": "https://archive.org/details/Designfo1956",
+      "description": "Set at the 1956 General Motors Motorama, this is one of the key Populuxe films of the 1950s, showing futuristic dream cars and Frigidaire's \"Kitchen of the Future.\"",
+      "download_url": "https://archive.org/download/Designfo1956/Designfo1956_archive.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 564838207,
+      "license_label": "licenses/publicdomain",
+      "license_url": "https://creativecommons.org/licenses/publicdomain/",
+      "checksums": [
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "Designfo1956.asr.js",
+          "value": "eeaf68b8868fa7c53aba88da0a8495eb9ea66fd5"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "Designfo1956.asr.srt",
+          "value": "60ccb8e1926bbcb2d49b2065c5fe3b4d5d06602c"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "Designfo1956.avi",
+          "value": "3e6d1bf484cef40f1d63395d2a85becd98191873"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "Designfo1956.mpeg",
+          "value": "17ec8796ff267012e732ed2e59f261d725a3bb09"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "Designfo1956_256kb.rm",
+          "value": "a4cf1cd6de5b635e6baca4f8ea125b5a2258da3a"
+        }
+      ],
+      "checksum_url": "https://archive.org/metadata/Designfo1956",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "2945470224d479efe92fe4aceb663d88b9141250",
+      "file_count": 17,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "ia:DuckandC1951",
+      "title": "Duck and Cover",
+      "kind": "Archive media",
+      "provider": "Internet Archive",
+      "source_id": "archive",
+      "source_url": "https://archive.org/details/DuckandC1951",
+      "description": "Selected for the 2004 National Film Registry of \"culturally, historically and aesthetically significant\" motion pictures. Famous Civil Defense film for children in which Bert the Turtle shows what to do in case of atomic attack.",
+      "download_url": "https://archive.org/download/DuckandC1951/DuckandC1951_archive.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 791844075,
+      "license_label": "licenses/publicdomain",
+      "license_url": "https://creativecommons.org/licenses/publicdomain/",
+      "checksums": [
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "DuckandC1951.asr.js",
+          "value": "42708339385cbac306b6e0302da4b19f2e2a0390"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "DuckandC1951.asr.srt",
+          "value": "b59d3428af0dae766ec416bb231da85a21de407a"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "DuckandC1951.mpeg",
+          "value": "bb91b2bcbbe5ea76c4c7a0097c620b35e776b11c"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "DuckandC1951.storj-store.trigger",
+          "value": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "DuckandC1951_meta.sqlite",
+          "value": "4f5f3b740fc65ca8c2f7e4796a7291cd3f02adbe"
+        }
+      ],
+      "checksum_url": "https://archive.org/metadata/DuckandC1951",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "14680b9d2dc2332852c45d4cbc5ea34c2f1c8797",
+      "file_count": 23,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "ia:ElephantsDream",
+      "title": "Elephants Dream",
+      "kind": "Archive media",
+      "provider": "Internet Archive",
+      "source_id": "archive",
+      "source_url": "https://archive.org/details/ElephantsDream",
+      "description": "From the official website : \"Elephants Dream is the story of two strange characters exploring a capricious and seemingly infinite machine. The elder, Proog, acts as a tour-guide and protector, happily showing off the sights and dangers of the machine to his initially curious but increasingly skeptical protege Emo. As their journey unfolds we discover signs that the machine is not all Proog thinks ",
+      "download_url": "https://archive.org/download/ElephantsDream/ElephantsDream_archive.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 28160557056,
+      "license_label": "licenses/by/3.0/us",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+      "checksums": [
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "ED-1080-png.tar",
+          "value": "540135fd3eba0a0f863d273357fa17f650d93ead"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "ED-360-png.tar",
+          "value": "8f7560d5d889fbacc83cd25c3d1c232ec5e6aa38"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "ED-CM-5.1-DVD-C.flac",
+          "value": "cfb9202c2349be442995583d5a0f975842eec1ab"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "ED-CM-5.1-DVD-L.flac",
+          "value": "966a37eb6dc6ad3d553c0b729720ed8afa6d62ea"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "ED-CM-5.1-DVD-LFE.flac",
+          "value": "3de32a9ad9af8f29d9e18ae23ccef55b3a73314f"
+        }
+      ],
+      "checksum_url": "https://archive.org/metadata/ElephantsDream",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "acb47ba3958759fdf09f36eeb80fe51c45c1abc9",
+      "file_count": 134,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "ia:Sintel",
+      "title": "Sintel",
+      "kind": "Archive media",
+      "provider": "Internet Archive",
+      "source_id": "archive",
+      "source_url": "https://archive.org/details/Sintel",
+      "description": "Sintel is an open movie from the Blender Foundation licensed under the Creative Commons Attribution 3.0 license.",
+      "download_url": "https://archive.org/download/Sintel/Sintel_archive.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 1808420870,
+      "license_label": "licenses/by/3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "checksums": [
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "Poster.jpg",
+          "value": "60b941b782aeafb4bc1a93fdcc2fb7fe36882b01"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "Sintel_Documentary_by_Ali_Boubred.avi",
+          "value": "88490474f0545cdc65c9ef39b1329af3a3faeb87"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "__ia_thumb.jpg",
+          "value": "a2a98a85474b6599c479999efe36507f3091dacc"
+        },
+        {
+          "algorithm": "SHA-1 (source-published)",
+          "file": "sintel-2048-stereo.mp4",
+          "value": "3d228eed0cbcb817cf9b712010eb730d01f3d173"
+        }
+      ],
+      "checksum_url": "https://archive.org/metadata/Sintel",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "5301d943b64fa79bc6e1ab36fae18dec67995bfb",
+      "file_count": 12,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "arch:c3b5aad0220157e6",
+      "title": "Arch Linux 2026.11.01 x86_64",
+      "kind": "Linux",
+      "provider": "Arch Linux",
+      "source_id": "arch",
+      "source_url": "https://archlinux.org/download/",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://archlinux.org/releng/releases/2026.11.01/torrent/",
+      "download_kind": "torrent",
+      "size_bytes": 1317568512,
+      "license_label": "Distribution packages have individual licences; official installer",
+      "license_url": "https://wiki.archlinux.org/title/Arch_Linux",
+      "checksum_url": "https://archlinux.org/iso/2026.11.01/sha256sums.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "01bcdcf01af2f7d58f2794899c834770d25c9bfc945bd092b32bb66672a4a216",
+          "file": "archlinux-2026.11.01-x86_64.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "ed0f013475535f19b5410d68fd20f627e4950b1f",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "debian-amd64:8d9e46f5435eb901",
+      "title": "debian-13.8.0-amd64-netinst.iso",
+      "kind": "Linux",
+      "provider": "Debian amd64",
+      "source_id": "debian-amd64",
+      "source_url": "https://www.debian.org/CD/torrent-cd/",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-13.8.0-amd64-netinst.iso.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 794820608,
+      "license_label": "Individual package licences; installer may include non-free firmware",
+      "license_url": "https://www.debian.org/legal/licenses/",
+      "checksum_url": "https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/SHA256SUMS",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "3770c7a54890f7574a68a8b402e553806a81d6bccfb379554caad3a9a857931e",
+          "file": "debian-13.8.0-amd64-netinst.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "e75a1a6b922815d64cfa9b8904208d3a85143495",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "debian-arm64:9f1fb38938059841",
+      "title": "debian-13.8.0-arm64-netinst.iso",
+      "kind": "Linux",
+      "provider": "Debian arm64",
+      "source_id": "debian-arm64",
+      "source_url": "https://www.debian.org/CD/torrent-cd/",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://cdimage.debian.org/debian-cd/current/arm64/bt-cd/debian-13.8.0-arm64-netinst.iso.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 737456128,
+      "license_label": "Individual package licences; installer may include non-free firmware",
+      "license_url": "https://www.debian.org/legal/licenses/",
+      "checksum_url": "https://cdimage.debian.org/debian-cd/current/arm64/bt-cd/SHA256SUMS",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "f4e05f67b5c74e3ff7b24c2a8f889960f9eb31fe0c1ac8513d27d5656958b6b3",
+          "file": "debian-13.8.0-arm64-netinst.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "44f71fbaab6c1d4293944613b83e93da21e7a92e",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "debian-amd64:aa78579894b88a05",
+      "title": "debian-edu-13.8.0-amd64-netinst.iso",
+      "kind": "Linux",
+      "provider": "Debian amd64",
+      "source_id": "debian-amd64",
+      "source_url": "https://www.debian.org/CD/torrent-cd/",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-edu-13.8.0-amd64-netinst.iso.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 804257792,
+      "license_label": "Individual package licences; installer may include non-free firmware",
+      "license_url": "https://www.debian.org/legal/licenses/",
+      "checksum_url": "https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/SHA256SUMS",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "b8b776f7bf1445b87c349556b2a98993a6cc69ecf8f14ec7ec8f6b775150c27c",
+          "file": "debian-edu-13.8.0-amd64-netinst.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "3b7bb520cfe58d8d1254c7c1eb1a89970d50b9cb",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "debian-amd64:bba1dda587537d85",
+      "title": "debian-mac-13.8.0-amd64-netinst.iso",
+      "kind": "Linux",
+      "provider": "Debian amd64",
+      "source_id": "debian-amd64",
+      "source_url": "https://www.debian.org/CD/torrent-cd/",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-mac-13.8.0-amd64-netinst.iso.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 796917760,
+      "license_label": "Individual package licences; installer may include non-free firmware",
+      "license_url": "https://www.debian.org/legal/licenses/",
+      "checksum_url": "https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/SHA256SUMS",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "b573e209d707a82c19124a16832dd839d478160ce5fdfe0ca0fe1986ea154c03",
+          "file": "debian-mac-13.8.0-amd64-netinst.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "e65adb81c4598503c45376251b1d935757c3b21a",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "ubuntu-lts:6196357ada47127a",
+      "title": "ubuntu-26.04-desktop-amd64.iso",
+      "kind": "Linux",
+      "provider": "Ubuntu LTS",
+      "source_id": "ubuntu-lts",
+      "source_url": "https://ubuntu.com/download/alternative-downloads",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-desktop-amd64.iso.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 6518974464,
+      "license_label": "Distribution packages have individual licences; official redistribution terms",
+      "license_url": "https://ubuntu.com/legal/intellectual-property-policy",
+      "checksum_url": "https://releases.ubuntu.com/26.04/SHA256SUMS",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "487f87faaf547ea30e0aba4d5b53346292571256b25333a978db1692bcee9dd2",
+          "file": "ubuntu-26.04-desktop-amd64.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "dafc8c076ca2f3ed376eeae7c76a0d6be2415c45",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "ubuntu-lts:98a2f7d7b51e0fa8",
+      "title": "ubuntu-26.04-live-server-amd64.iso",
+      "kind": "Linux",
+      "provider": "Ubuntu LTS",
+      "source_id": "ubuntu-lts",
+      "source_url": "https://ubuntu.com/download/alternative-downloads",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-live-server-amd64.iso.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 2918598656,
+      "license_label": "Distribution packages have individual licences; official redistribution terms",
+      "license_url": "https://ubuntu.com/legal/intellectual-property-policy",
+      "checksum_url": "https://releases.ubuntu.com/26.04/SHA256SUMS",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "dec49008a71f6098d0bcfc822021f4d042d5f2db279e4d75bdd981304f1ca5d9",
+          "file": "ubuntu-26.04-live-server-amd64.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "e1fc140a6391357fa1cf08ddb70274f9c05eb88b",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "ubuntu-lts:608cf6ab6f7923dc",
+      "title": "ubuntu-26.04.1-desktop-amd64.iso",
+      "kind": "Linux",
+      "provider": "Ubuntu LTS",
+      "source_id": "ubuntu-lts",
+      "source_url": "https://ubuntu.com/download/alternative-downloads",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://releases.ubuntu.com/26.04/ubuntu-26.04.1-desktop-amd64.iso.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 6482409472,
+      "license_label": "Distribution packages have individual licences; official redistribution terms",
+      "license_url": "https://ubuntu.com/legal/intellectual-property-policy",
+      "checksum_url": "https://releases.ubuntu.com/26.04/SHA256SUMS",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "601e30fbf5d97759367c632e2c33630665039b7e2158fd068403da3ccf1bda1f",
+          "file": "ubuntu-26.04.1-desktop-amd64.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "5b1e0d988fc7a0c9e99bd852071681a59974b39f",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "ubuntu-lts:79e350124e3127ea",
+      "title": "ubuntu-26.04.1-live-server-amd64.iso",
+      "kind": "Linux",
+      "provider": "Ubuntu LTS",
+      "source_id": "ubuntu-lts",
+      "source_url": "https://ubuntu.com/download/alternative-downloads",
+      "description": "Official distribution torrent. Check the finished installer against the publisher’s checksum and signature.",
+      "download_url": "https://releases.ubuntu.com/26.04/ubuntu-26.04.1-live-server-amd64.iso.torrent",
+      "download_kind": "torrent",
+      "size_bytes": 2927861760,
+      "license_label": "Distribution packages have individual licences; official redistribution terms",
+      "license_url": "https://ubuntu.com/legal/intellectual-property-policy",
+      "checksum_url": "https://releases.ubuntu.com/26.04/SHA256SUMS",
+      "checksums": [
+        {
+          "algorithm": "SHA-256",
+          "value": "cc8a95cde20f6ced61a322420de00f10cc3c90ced545daa46cb9c1a117f1d927",
+          "file": "ubuntu-26.04.1-live-server-amd64.iso"
+        }
+      ],
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "infohash": "e4f19cf636409b72571766c2ae89c98fc21a109d",
+      "file_count": 1,
+      "availability": "available",
+      "http_status": 200,
+      "error": null
+    },
+    {
+      "id": "zenodo:11237258",
+      "title": "Dataset of Human Hand Motion Planning",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/11237258",
+      "description": "This dataset contains 544 human hand motion trajectories in a point-to-point reaching experiment. The purpose of this dataset is to provide human demonstrations for imitation-learning- and reinforcement-learning -based robot motion planning. Refer to 'ReadMe.md' in the zip file for details about the format and usage of the dataset.",
+      "download_url": "https://zenodo.org/api/records/11237258/files/hand_motion.zip/content",
+      "download_kind": "file",
+      "download_name": "hand_motion.zip",
+      "size_bytes": 12221201,
+      "record_size_bytes": 12221201,
+      "record_file_count": 1,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "hand_motion.zip",
+          "value": "ee3d2fcf8f7a981b04d47414e3799bf1"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/11237258",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:7719717",
+      "title": "Global MHD simulation of the interaction of a solar wind discontinuity with Earth's magnetopause on April 10, 2005",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/7719717",
+      "description": "Magnetic field (nT) and plasma beta datasets from a global MHD simulation of the interaction of a solar wind discontinuity with Earth's magnetopause on April 10, 2005. The data are in MHD coordinates such as i = -X GSE j = -Y GSE k = Z GSE and are written in ASCII vtk format ready to be displayed with ParaView (www.paraview.org). Only a small volume of the simulation is provided (-20.0 5.0, -10 10",
+      "download_url": "https://zenodo.org/api/records/7719717/files/lws003s.01615_BETA.vtk/content",
+      "download_kind": "file",
+      "download_name": "lws003s.01615_BETA.vtk",
+      "size_bytes": 14138846,
+      "record_size_bytes": 22687498226,
+      "record_file_count": 841,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "lws003s.01615_BETA.vtk",
+          "value": "64c6fa21651db29121147b3abf5ff586"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/7719717",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:17602505",
+      "title": "GWTC-4.0: Parameter estimation data release",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/17602505",
+      "description": "This material is part of several data products associated with GWTC-4.0, the fourth Gravitational-Wave Transient Catalog from the LIGO Scientific Collaboration, the Virgo Collaboration, and the KAGRA Collaboration. For more information, see the results paper ( https://arxiv.org/abs/2508.18081v1 ), the related material linked from this page, and the GWTC-4.0 data release documentation ( www.gw-open",
+      "download_url": "https://zenodo.org/api/records/17602505/files/md5sums.txt/content",
+      "download_kind": "file",
+      "download_name": "md5sums.txt",
+      "size_bytes": 53281,
+      "record_size_bytes": 14379318125,
+      "record_file_count": 90,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "md5sums.txt",
+          "value": "68b55e3bdfddeb924ca96819188c8e5e"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/17602505",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:17593298",
+      "title": "Introducing MADYS: the Manifold Age Determination for Young Stars | Full model database",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/17593298",
+      "description": "Complete database of stellar and substellar evolutionary models employed in the Manifold Age Determination for Young Stars (MADYS). For a description of the tool, please refer to the main paper. For a detailed description of individual files, it is advised to use the ad-hoc functions provided within the published package. Bibliographic reference: Astronomy & Astrophysics, 666, A15 GitHub repositor",
+      "download_url": "https://zenodo.org/api/records/17593298/files/B97.zip/content",
+      "download_kind": "file",
+      "download_name": "B97.zip",
+      "size_bytes": 4449,
+      "record_size_bytes": 2658383109,
+      "record_file_count": 14,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "B97.zip",
+          "value": "1e040d358f9657be5689e5d376778717"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/17593298",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:7142456",
+      "title": "Sacrobosco Visual Element Dataset (S-VED)",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/7142456",
+      "description": "The Sacrobosco Visual Elements Dataset (S-VED) is derived from 359 Sphaera editions, centered on the Tractatus de sphaera by Johannes de Sacrobosco (—1256) and printed between 1472 and 1650. The Sphaera editions were primarily used to teach geocentric astronomy to university students across Europe. Their visual elements, therefore, played an essential role in visualizing the ideas, messages, and c",
+      "download_url": "https://zenodo.org/api/records/7142456/files/4079.jpg/content",
+      "download_kind": "file",
+      "download_name": "4079.jpg",
+      "size_bytes": 26549,
+      "record_size_bytes": 3288114548,
+      "record_file_count": 4001,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "4079.jpg",
+          "value": "21addc715d459d7d0ed09f912b8b0cdd"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/7142456",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:24309825",
+      "title": "Satellite Sensor Relative Spectral Response data",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/24309825",
+      "description": "Satellite Spectral Response functions for a number of imaging sensors. Currently supports: Himawari-8 AHI Himawari-9 AHI GOES-16 ABI GOES-17 ABI GOES-18 ABI GOES-19 ABI NOAA AVHRR/1, AVHRR/2, AVHRR/3 (NOAA-6 errors in ch1 & 2 fixed) Metop AVHRR/3 TIROS-N AVHRR/1 Envisat AATSR Sentinel-3A, B, C & D SLSTR Sentinel-3A&B OLCI - mean rsr Meteosat SEVIRI Terra/Aqua MODIS Suomi-NPP VIIRS JPSS-1 (NOAA-20)",
+      "download_url": "https://zenodo.org/api/records/24309825/files/pyspectral_rsr_data.tgz/content",
+      "download_kind": "file",
+      "download_name": "pyspectral_rsr_data.tgz",
+      "size_bytes": 5373399,
+      "record_size_bytes": 5373399,
+      "record_file_count": 1,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "pyspectral_rsr_data.tgz",
+          "value": "fddc0b5c52ce9dc1b798a60f526af86d"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/24309825",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:14738271",
+      "title": "Siril Spectrophotometric Catalog extracted from Gaia DR3",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/14738271",
+      "description": "This is an extract of the Gaia DR3 catalog optimized for spectrophotometric color calibration. The catalog is indexed at HEALpix level 8 and selects up to the 127 brightest sources in each level 8 HEALpixel, though in many HEALpixels the number is limited by the Gaia sources that have xp_sampled records available. However this strategy ensures an even density of stars, providing sufficient stars f",
+      "download_url": "https://zenodo.org/api/records/14738271/files/siril_cat1_healpix8_xpsamp_6.dat.bz2.sha256sum/content",
+      "download_kind": "file",
+      "download_name": "siril_cat1_healpix8_xpsamp_6.dat.bz2.sha256sum",
+      "size_bytes": 103,
+      "record_size_bytes": 10551878343,
+      "record_file_count": 97,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "siril_cat1_healpix8_xpsamp_6.dat.bz2.sha256sum",
+          "value": "b07fab84e43043943c2f725d0a486dce"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/14738271",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:17988559",
+      "title": "Siril Spectrophotometric Catalog extracted from Gaia DR3 (uncompressed for random access)",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/17988559",
+      "description": "This is an extract of the Gaia DR3 catalog optimized for spectrophotometric color calibration. The catalog is indexed at HEALpix level 8 and selects up to the 127 brightest sources in each level 8 HEALpixel, though in many HEALpixels the number is limited by the Gaia sources that have xp_sampled records available. However this strategy ensures an even density of stars, providing sufficient stars f",
+      "download_url": "https://zenodo.org/api/records/17988559/files/siril_cat1_healpix8_xpsamp_5.dat/content",
+      "download_kind": "file",
+      "download_name": "siril_cat1_healpix8_xpsamp_5.dat",
+      "size_bytes": 28794880,
+      "record_size_bytes": 20785257375,
+      "record_file_count": 48,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "siril_cat1_healpix8_xpsamp_5.dat",
+          "value": "c96e3214c60aa47414af8454a00452cb"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/17988559",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:4265393",
+      "title": "SPARC Data Initiative monthly zonal mean composition measurements from stratospheric limb sounders (1978-2018)",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/4265393",
+      "description": "The SPARC Data Initiative dataset is the most comprehensive compilation of vertically resolved stratospheric composition measurements to date and consists of four decades of monthly zonal mean climatologies (1978-2018) from a range of satellite limb sounders including LIMS, SAGE I/II/III, HALOE, UARS-MLS, POAMII/III, OSIRIS, SMR, MIPAS, GOMOS, SCIAMACHY, ACE-FTS, ACE-MAESTRO, Aura-MLS, HIRDLS, SMI",
+      "download_url": "https://zenodo.org/api/records/4265393/files/SPARC_DI_T2Mz_HO2_pm_2004_SMR_v2-1_p01.nc/content",
+      "download_kind": "file",
+      "download_name": "SPARC_DI_T2Mz_HO2_pm_2004_SMR_v2-1_p01.nc",
+      "size_bytes": 254088,
+      "record_size_bytes": 522926996,
+      "record_file_count": 1565,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "SPARC_DI_T2Mz_HO2_pm_2004_SMR_v2-1_p01.nc",
+          "value": "aacd60e2750c143b5252b1576c8f96a0"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/4265393",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:7468367",
+      "title": "The Sonified Hertzsprung-Russell Diagram: Code and Data",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/7468367",
+      "description": "This data set contains sound files, Python code and a catalogue file to go with the paper \"The Sonified Hertzsprung-Russell Diagram\", which presents a method to turn stellar light curves into sound. This method encodes physically meaningful features such that auditory comparisons between sonifications of different stars preserve physical differences between them.",
+      "download_url": "https://zenodo.org/api/records/7468367/files/render_star_example.py/content",
+      "download_kind": "file",
+      "download_name": "render_star_example.py",
+      "size_bytes": 1452,
+      "record_size_bytes": 1028482190,
+      "record_file_count": 1839,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "render_star_example.py",
+          "value": "868bfd2b6fa5d4695749929b4fb0da0b"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/7468367",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:3715549",
+      "title": "The Westerbork HALOGAS Survey: Data Release 1",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/3715549",
+      "description": "The Westerbork HALOGAS Survey: Data Release 1 (version 2) The Westerbork Hydrogen Accretion in LOcal GAlaxieS ( HALOGAS ) Survey comprises deep neutral hydrogen (HI) 21-cm emission line observations of 24 nearby galaxies, along with ancillary data products such as deep optical imaging, radio continuum images, and single-dish HI data. This first data release ( HALOGAS-DR1 ) provides the following H",
+      "download_url": "https://zenodo.org/api/records/3715549/files/NGC4244-LR_mom1m.fits/content",
+      "download_kind": "file",
+      "download_name": "NGC4244-LR_mom1m.fits",
+      "size_bytes": 1074240,
+      "record_size_bytes": 20854235520,
+      "record_file_count": 192,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "NGC4244-LR_mom1m.fits",
+          "value": "0a0ad8980b3fc57d59670040093f0189"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/3715549",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    },
+    {
+      "id": "zenodo:3908291",
+      "title": "UV and X-ray observations of the neutron star LMXB EXO 0748-676 in its quiescent state",
+      "kind": "Research data",
+      "provider": "Zenodo",
+      "source_id": "zenodo",
+      "source_url": "https://zenodo.org/records/3908291",
+      "description": "Data used in the manuscript \"UV and X-ray observations of the neutron star LMXB EXO 0748-676 in its quiescent state\" submitted to MNRAS",
+      "download_url": "https://zenodo.org/api/records/3908291/files/test.bands/content",
+      "download_kind": "file",
+      "download_name": "test.bands",
+      "size_bytes": 38,
+      "record_size_bytes": 4949992604,
+      "record_file_count": 842,
+      "license_label": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "file": "test.bands",
+          "value": "2f3b60c3e6376d8f9c2f32bb93a0c5dd"
+        }
+      ],
+      "checksum_url": "https://zenodo.org/records/3908291",
+      "checked_at": "2026-11-25T13:09:49.739043Z",
+      "metadata_checked_at": "2026-11-25T13:09:49.739043Z",
+      "availability": "available",
+      "http_status": 206,
+      "error": null
+    }
+  ]
+}

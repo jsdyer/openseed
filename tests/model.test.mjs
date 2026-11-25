@@ -1,21 +1,9 @@
-import test from 'node:test';
-import assert from 'node:assert/strict';
-import { cleanLines } from '../web/model.mjs';
-test('trims, removes blanks and preserves first-seen order', () => {
-  assert.deepEqual(cleanLines('  Halifax\nLangley\nHalifax\n\nVancouver  '), {
-    text: 'Halifax\nLangley\nVancouver', count: 3, removed: 1,
-  });
-});
-test('supports Windows and old Mac line endings', () => {
-  assert.equal(cleanLines('a\r\nb\ra').text, 'a\nb');
-});
-test('empty text and whitespace produce an empty result', () => {
-  assert.deepEqual(cleanLines(' \n\t'), { text: '', count: 0, removed: 0 });
-});
-test('preserves case and Unicode', () => {
-  assert.equal(cleanLines('Québec\nquébec\n東京\nQuébec').text, 'Québec\nquébec\n東京');
-});
-test('treats markup as ordinary text', () => {
-  assert.equal(cleanLines('<script>alert(1)</script>\n<script>alert(1)</script>').text, '<script>alert(1)</script>');
-});
-test('rejects non-text input', () => { assert.throws(() => cleanLines(null), TypeError); });
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import{filterItems,formatBytes,safeLink,validateCatalogue,csv}from '../web/model.mjs';
+const data=JSON.parse(fs.readFileSync(new URL('../web/data/catalogue.json',import.meta.url)));
+test('real catalogue has valid identities, links and dated checks',()=>{validateCatalogue(data);assert.ok(data.items.some(i=>i.kind==='Linux'));assert.ok(data.items.some(i=>i.kind==='Research data'));assert.ok(data.items.some(i=>i.kind==='Archive media'));});
+test('search and filters compose without changing input',()=>{const original=JSON.stringify(data);const rows=filterItems(data.items,{query:'debian amd64',kind:'Linux',availableOnly:true});assert.ok(rows.length);assert.ok(rows.every(x=>x.title.includes('amd64')));assert.equal(JSON.stringify(data),original);});
+test('unknown size excluded only when size limit applies',()=>{const a={title:'New collection',kind:'Other',provider:'Extra',description:'Fresh source',availability:'available',size_bytes:null};assert.equal(filterItems([a],{query:'fresh'}).length,1);assert.equal(filterItems([a],{maxGB:'2'}).length,0);});
+test('expand beyond starter catalogue',()=>{const row={...data.items[0],id:'future',title:'A newly added open collection',provider:'New source'};assert.equal(filterItems([...data.items,row],{provider:'New source'}).length,1);validateCatalogue({...data,items:[...data.items,row]});});
+test('reject duplicate IDs and unsafe links',()=>{assert.throws(()=>validateCatalogue({...data,items:[data.items[0],data.items[0]]}));assert.equal(safeLink('javascript:alert(1)'),null);assert.equal(safeLink('https://name:pass@example.org/'),null);});
+test('availability errors remain discoverable',()=>{const row={...data.items[0],availability:'unavailable',http_status:404};assert.equal(filterItems([row],{}).length,1);assert.equal(filterItems([row],{availableOnly:true}).length,0);});
+test('sizes and CSV correctly escaped',()=>{assert.equal(formatBytes(1000000000),'1 GB');assert.equal(formatBytes(null),'Size not published');assert.match(csv([{...data.items[0],title:'=1+1'}]),/"'=1\+1"/);assert.match(csv([{...data.items[0],title:'A "quoted" title'}]),/A ""quoted"" title/);});

@@ -1,37 +1,10 @@
-import { cleanLines } from './model.mjs';
-const input = document.querySelector('#input');
-const output = document.querySelector('#output');
-const status = document.querySelector('#status');
-const copy = document.querySelector('#copy');
-function update() {
-  const result = cleanLines(input.value);
-  output.value = result.text;
-  status.textContent = `${result.count} unique ${result.count === 1 ? 'line' : 'lines'}; ${result.removed} ${result.removed === 1 ? 'duplicate' : 'duplicates'} removed.`;
-  copy.disabled = result.count === 0;
-}
-input.addEventListener('input', update);
-document.querySelector('#sample').addEventListener('click', () => {
-  input.value = '  Halifax\nLangley\nHalifax\n\nVancouver  ';
-  update();
-});
-document.querySelector('#clear').addEventListener('click', () => {
-  input.value = '';
-  update();
-  input.focus();
-});
-if (navigator.clipboard && window.isSecureContext) {
-  copy.hidden = false;
-  copy.disabled = true;
-  copy.addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(output.value);
-      status.textContent = 'Result copied.';
-    } catch {
-      output.focus();
-      output.select();
-      status.textContent = 'Copy was unavailable. The result is selected so you can copy it manually.';
-    }
-  });
-}
-// Namespace future preference storage as coolcode:<tool-id>:<key>.
-// Do not persist pasted text or uploads by default.
+import {safeLink,formatBytes,filterItems,validateCatalogue,csv}from './model.mjs';
+const $=id=>document.getElementById(id);let catalogue=null,visible=[];
+function text(tag,value,className){const e=document.createElement(tag);e.textContent=value;if(className)e.className=className;return e;}
+function link(label,url,className){const a=text('a',label,className);a.href=safeLink(url)||'#';a.rel='noopener noreferrer';a.referrerPolicy='no-referrer';return a;}
+function card(item){const a=document.createElement('article');a.className='card';a.append(text('div',`${item.kind} · ${item.provider}`,'kind'),text('h2',item.title),text('p',item.description,'description'));const d=text('div','','details');d.append(text('p',`${formatBytes(item.size_bytes)} · ${item.download_kind==='torrent'?`${item.file_count??'?'} payload file(s)`:'selected file'}`));if(item.record_file_count>1)d.append(text('p',`Whole record: ${item.record_file_count} files · ${formatBytes(item.record_size_bytes)}`));const lic=document.createElement('p');lic.append('Licence: ',link(item.license_label,item.license_url));d.append(lic);const date=new Date(item.checked_at).toLocaleString();d.append(text('p',`${item.availability==='available'?'Download link responded':item.availability==='unavailable'?'Download unavailable':'Download not verified'} · ${date}${item.http_status?' · HTTP '+item.http_status:''}${item.error?' · '+item.error:''}`,'availability '+item.availability));if(item.download_name)d.append(text('p','Selected file: '+item.download_name));if(item.infohash||item.checksums.length){const detail=document.createElement('details');detail.append(text('summary','Hashes and verification'));if(item.infohash){detail.append(text('p','Torrent infohash (identifies metadata, not a finished-file checksum)'),text('p',item.infohash,'hash'));}for(const c of item.checksums){detail.append(text('p',c.file+' · '+c.algorithm),text('p',c.value,'hash'));}if(safeLink(item.checksum_url))detail.append(link('Publisher’s verification metadata',item.checksum_url));d.append(detail);}a.append(d,link(item.download_kind==='torrent'?'Download .torrent':'Open selected data file',item.download_url,'download'),link('View original source',item.source_url,'source'));return a;}
+function render(){if(!catalogue)return;visible=filterItems(catalogue.items,{query:$('query').value,kind:$('kind').value,provider:$('provider').value,availableOnly:$('available').checked,maxGB:$('max-size').value});$('count').textContent=`${visible.length} of ${catalogue.items.length} downloads · ${visible.filter(i=>i.availability==='available').length} responded at last check`;$('results').replaceChildren(...visible.map(card));if(!visible.length)$('results').append(text('p','No matches. Try fewer search words, a larger size limit or another collection.','empty'));const query=$('query').value.trim();$('archive-search').href='https://archive.org/advancedsearch.php'+(query?'?q='+encodeURIComponent(query):'');$('zenodo-search').href='https://zenodo.org/search'+(query?'?q='+encodeURIComponent(query):'');}
+for(const id of ['query','kind','provider','available','max-size'])$(id).addEventListener('input',render);
+$('reset').addEventListener('click',()=>{for(const id of ['query','kind','provider','max-size'])$(id).value='';$('available').checked=false;render();});
+$('export').addEventListener('click',()=>{const blob=new Blob([csv(visible)],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='openseed-downloads.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+try{const response=await fetch('./data/catalogue.json');if(!response.ok)throw new Error('The saved catalogue could not be loaded.');catalogue=validateCatalogue(await response.json());for(const [id,key] of [['kind','kind'],['provider','provider']]){for(const value of [...new Set(catalogue.items.map(i=>i[key]))].sort()){$(id).append(new Option(value,value));}}const age=(Date.now()-Date.parse(catalogue.checked_at))/86400000;$('status').textContent=`${catalogue.items.length} downloads from ${catalogue.sources.length} configured sources · checked ${new Date(catalogue.checked_at).toLocaleString()} · scheduled daily${age>3?' · This catalogue is older than expected. Check dates before downloading.':''}`;render();}catch(error){$('status').textContent=error.message+' Original-source links below remain available.';$('export').disabled=true;}

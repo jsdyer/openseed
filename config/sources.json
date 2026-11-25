@@ -1,0 +1,11 @@
+{
+  "max_items_per_source": 12,
+  "linux": [
+    {"id":"ubuntu-lts","name":"Ubuntu LTS","index":"https://releases.ubuntu.com/26.04/","source_url":"https://ubuntu.com/download/alternative-downloads","checksums":"SHA256SUMS","license_url":"https://ubuntu.com/legal/intellectual-property-policy","license_label":"Distribution packages have individual licences; official redistribution terms"},
+    {"id":"debian-amd64","name":"Debian amd64","index":"https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/","source_url":"https://www.debian.org/CD/torrent-cd/","checksums":"SHA256SUMS","license_url":"https://www.debian.org/legal/licenses/","license_label":"Individual package licences; installer may include non-free firmware"},
+    {"id":"debian-arm64","name":"Debian arm64","index":"https://cdimage.debian.org/debian-cd/current/arm64/bt-cd/","source_url":"https://www.debian.org/CD/torrent-cd/","checksums":"SHA256SUMS","license_url":"https://www.debian.org/legal/licenses/","license_label":"Individual package licences; installer may include non-free firmware"},
+    {"id":"arch","name":"Arch Linux","index":"https://archlinux.org/download/","source_url":"https://archlinux.org/download/","license_url":"https://wiki.archlinux.org/title/Arch_Linux","license_label":"Distribution packages have individual licences; official installer","adapter":"arch"}
+  ],
+  "archive": {"ids":["DuckandC1951","BigBuckBunny_328","Sintel","ElephantsDream","AIsforAtom1953","Designfo1956"],"open_license_prefixes":["https://creativecommons.org/licenses/by/","https://creativecommons.org/licenses/by-sa/","https://creativecommons.org/publicdomain/","https://creativecommons.org/licenses/publicdomain/"]},
+  "zenodo": {"queries":["Canada","astronomy","ocean"],"rows":12,"open_license_ids":["cc-by-4.0","cc-by-3.0","cc-by-sa-4.0","cc0-1.0","odc-by-1.0","odc-odbl-1.0","pddl-1.0"]}
+}
