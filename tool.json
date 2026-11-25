@@ -10,7 +10,7 @@
     "archive",
     "downloads"
   ],
-  "icon": "download",
+  "icon": "package-open",
   "url": "/openseed/",
   "source": "https://github.com/jsdyer/openseed",
   "hosting": "project",
