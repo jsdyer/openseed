@@ -1,42 +1,42 @@
 {
   "schema": "openseed.v1",
-  "checked_at": "2026-11-27T12:22:29.812359Z",
+  "checked_at": "2026-11-27T19:30:12.780095Z",
   "sources": [
     {
       "id": "arch",
       "state": "ok",
       "items": 1,
-      "checked_at": "2026-11-27T12:22:29.812359Z"
+      "checked_at": "2026-11-27T19:30:12.780095Z"
     },
     {
       "id": "archive",
       "state": "ok",
       "items": 5,
-      "checked_at": "2026-11-27T12:22:29.812359Z"
+      "checked_at": "2026-11-27T19:30:12.780095Z"
     },
     {
       "id": "debian-amd64",
       "state": "ok",
       "items": 3,
-      "checked_at": "2026-11-27T12:22:29.812359Z"
+      "checked_at": "2026-11-27T19:30:12.780095Z"
     },
     {
       "id": "debian-arm64",
       "state": "ok",
       "items": 1,
-      "checked_at": "2026-11-27T12:22:29.812359Z"
+      "checked_at": "2026-11-27T19:30:12.780095Z"
     },
     {
       "id": "ubuntu-lts",
       "state": "ok",
       "items": 4,
-      "checked_at": "2026-11-27T12:22:29.812359Z"
+      "checked_at": "2026-11-27T19:30:12.780095Z"
     },
     {
       "id": "zenodo",
       "state": "ok",
       "items": 12,
-      "checked_at": "2026-11-27T12:22:29.812359Z"
+      "checked_at": "2026-11-27T19:30:12.780095Z"
     }
   ],
   "items": [
@@ -71,8 +71,8 @@
         }
       ],
       "checksum_url": "https://archive.org/metadata/BigBuckBunny_328",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "68ab7e0045144c33878900df2c5cac0a2ec2dc5b",
       "file_count": 6,
       "availability": "available",
@@ -120,8 +120,8 @@
         }
       ],
       "checksum_url": "https://archive.org/metadata/Designfo1956",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "2945470224d479efe92fe4aceb663d88b9141250",
       "file_count": 17,
       "availability": "available",
@@ -169,8 +169,8 @@
         }
       ],
       "checksum_url": "https://archive.org/metadata/DuckandC1951",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "14680b9d2dc2332852c45d4cbc5ea34c2f1c8797",
       "file_count": 23,
       "availability": "available",
@@ -218,8 +218,8 @@
         }
       ],
       "checksum_url": "https://archive.org/metadata/ElephantsDream",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "acb47ba3958759fdf09f36eeb80fe51c45c1abc9",
       "file_count": 134,
       "availability": "available",
@@ -262,8 +262,8 @@
         }
       ],
       "checksum_url": "https://archive.org/metadata/Sintel",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "5301d943b64fa79bc6e1ab36fae18dec67995bfb",
       "file_count": 12,
       "availability": "available",
@@ -291,8 +291,8 @@
           "file": "archlinux-2026.11.01-x86_64.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "ed0f013475535f19b5410d68fd20f627e4950b1f",
       "file_count": 1,
       "availability": "available",
@@ -320,8 +320,8 @@
           "file": "debian-13.8.0-amd64-netinst.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "e75a1a6b922815d64cfa9b8904208d3a85143495",
       "file_count": 1,
       "availability": "available",
@@ -349,8 +349,8 @@
           "file": "debian-13.8.0-arm64-netinst.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "44f71fbaab6c1d4293944613b83e93da21e7a92e",
       "file_count": 1,
       "availability": "available",
@@ -378,8 +378,8 @@
           "file": "debian-edu-13.8.0-amd64-netinst.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "3b7bb520cfe58d8d1254c7c1eb1a89970d50b9cb",
       "file_count": 1,
       "availability": "available",
@@ -407,8 +407,8 @@
           "file": "debian-mac-13.8.0-amd64-netinst.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "e65adb81c4598503c45376251b1d935757c3b21a",
       "file_count": 1,
       "availability": "available",
@@ -436,8 +436,8 @@
           "file": "ubuntu-26.04-desktop-amd64.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "dafc8c076ca2f3ed376eeae7c76a0d6be2415c45",
       "file_count": 1,
       "availability": "available",
@@ -465,8 +465,8 @@
           "file": "ubuntu-26.04-live-server-amd64.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "e1fc140a6391357fa1cf08ddb70274f9c05eb88b",
       "file_count": 1,
       "availability": "available",
@@ -494,8 +494,8 @@
           "file": "ubuntu-26.04.1-desktop-amd64.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "5b1e0d988fc7a0c9e99bd852071681a59974b39f",
       "file_count": 1,
       "availability": "available",
@@ -523,8 +523,8 @@
           "file": "ubuntu-26.04.1-live-server-amd64.iso"
         }
       ],
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "infohash": "e4f19cf636409b72571766c2ae89c98fc21a109d",
       "file_count": 1,
       "availability": "available",
@@ -555,8 +555,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/11237258",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -585,8 +585,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/7719717",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -615,8 +615,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/17602505",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -645,8 +645,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/17593298",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -675,8 +675,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/7142456",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -705,8 +705,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/24309825",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -735,8 +735,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/14738271",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -765,8 +765,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/17988559",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -795,8 +795,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/4265393",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -825,8 +825,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/7468367",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -855,8 +855,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/3715549",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
@@ -885,8 +885,8 @@
         }
       ],
       "checksum_url": "https://zenodo.org/records/3908291",
-      "checked_at": "2026-11-27T12:22:29.812359Z",
-      "metadata_checked_at": "2026-11-27T12:22:29.812359Z",
+      "checked_at": "2026-11-27T19:30:12.780095Z",
+      "metadata_checked_at": "2026-11-27T19:30:12.780095Z",
       "availability": "available",
       "http_status": 206,
       "error": null
